@@ -85,8 +85,7 @@ Function ExcelXLL
         Write-Host "[!] I can't find Microsoft Office!" 
         Write-Host "[+] Please reset a correct path." 
         return 
-    }
-    
+    }    
     if ([Environment]::Is64BitOperatingSystem)
     {
         Write-Host "[+] OS: x64"
@@ -103,8 +102,7 @@ Function ExcelXLL
             Write-Host "[+] Microsoft Office bit: 32-bit"
             $fileContent = $calcxllx86
             Write-Host "[+] I copy calc_x86.xll"            
-        }
-    
+        }    
     }
     else
     {
