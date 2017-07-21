@@ -19,6 +19,6 @@ License: BSD 3-Clause
 
 Can be used to maintain persistence by Word, Excel and Powerpoint.
 
-Test success on Office 2010(x86) and Office 2013(x86). 
+Test success on Office 2010(x86 & x64) and Office 2013(x86 & x64). 
 
 More to test.
