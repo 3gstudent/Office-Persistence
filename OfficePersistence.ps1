@@ -44,7 +44,7 @@ Function WordWLL
         Try  
         {  
             $OfficeMainPath=$OfficePath.Substring(0,$OfficePath.LastIndexOf("\")+1)+"MEDIA"
-            dir $OfficeMainPath | Out-Null -ErrorAction Stop  
+            dir $OfficeMainPath -ErrorAction Stop | Out-Null 
             Write-Host "[+] Microsoft Office bit: 64-bit" 
             Write-Host "[+] I copy calc_x64.wll"                     
         }
