@@ -22,3 +22,7 @@ Can be used to maintain persistence by Word, Excel and Powerpoint.
 Test success on Office 2010(x86 & x64) and Office 2013(x86 & x64). 
 
 More to test.
+
+More details:
+
+https://3gstudent.github.io/3gstudent.github.io/Use-Office-to-maintain-persistence/
