@@ -37,7 +37,7 @@ Function WordWLL
         Write-Host "[+] Please reset a correct path." 
         return 
     }   
-    if ([Environment]::Is64BitOperatingSystem)
+    if ([IntPtr]::Size -eq 8)
     {
         Write-Host "[+] OS: x64"
         $fileContent = $calcwllx64        
@@ -86,7 +86,7 @@ Function ExcelXLL
         Write-Host "[+] Please reset a correct path." 
         return 
     }    
-    if ([Environment]::Is64BitOperatingSystem)
+    if ([IntPtr]::Size -eq 8)
     {
         Write-Host "[+] OS: x64"
         $fileContent = $calcxllx64        
