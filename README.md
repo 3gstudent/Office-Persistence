@@ -25,6 +25,6 @@ More to test.
 
 More details:
 
-https://3gstudent.github.io/3gstudent.github.io/Use-Office-to-maintain-persistence/
+https://3gstudent.github.io/Use-Office-to-maintain-persistence
 
-https://3gstudent.github.io/3gstudent.github.io/Office-Persistence-on-x64-operating-system/
+https://3gstudent.github.io/Office-Persistence-on-x64-operating-system
